@@ -26,8 +26,7 @@
      else{
          h3_line.innerText="No Entry!"+"<img src="+"https://i.gifer.com/7rO1.gif"+">"
          h3_line.style="color:red"
-     }
-    
+     }   
 }
 
 

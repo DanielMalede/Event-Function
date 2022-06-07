@@ -58,14 +58,10 @@ function chackUserAge() {
                 for (var i = 0; i < array.length; i++) {
                        myList.innerHTML+="<li id=list"+i+">"+array[i]+" " +userLastName.value+"</li>"       
                        var myarray = array[i]
-                       if (myarray[0]==nameinput.value[0]) {
+                       if (myarray[0]==userLastName.value[0]) {
                         document.getElementById("list"+i).style="color:blue";
                     }
                 }
-                // for (var j = 0; j < array.length; j++) {
-                //     if (document.getElementById("list"+i)==nameinput.value[0]) {
-                //      myList.style="color:red"  
-                // }
             }
             document.body.append(myList);
         })

@@ -50,6 +50,7 @@ if(isEighteen){
     
     var arrayButton = document.createElement("button");
     document.body.append(arrayButton);
+    
     arrayButton.innerText="clack me"
     arrayButton.addEventListener("click",()=>{
         array.push(inputUserName.value)
